@@ -29,11 +29,11 @@ background: #252525;
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-background: #ee1717;
+background: #10c610;
 border-radius: 3px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-background: #ee1717;
+background: #10c610;
 }
