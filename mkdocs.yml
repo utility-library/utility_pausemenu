@@ -1,0 +1,52 @@
+site_name: Utility Pause Menu
+site_url: https://example.com/
+
+theme:
+  name: material
+  logo: assets/images/Utility.png
+  favicon: assets/images/Utility.png
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+extra_css:
+  - ovveride/highlight.css
+  - ovveride/style.css
+
+extra_javascript:
+  - https://unpkg.com/mermaid@8.6.4/dist/mermaid.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js
+  - https://code.jquery.com/jquery-3.6.0.min.js
+  - ovveride/highlight_.js
+
+nav:
+    - Home: 'index.md'
+    - 'Exports':
+      - 'GetCurrentPauseMenu': 'exports/GetCurrentPauseMenu.md'
+      - 'IsInPause': 'exports/IsInPause.md'
+      - 'OpenBrowserPage': 'exports/OpenBrowserPage.md'
+      - 'SetMapMenu': 'exports/SetMapMenu.md'
+      - 'SetPauseMenu': 'exports/SetPauseMenu.md'
+      - 'SetSettingsMenu': 'exports/SetSettingsMenu.md'
+      - 'TogglePauseMenu': 'exports/TogglePauseMenu.md'
+
+markdown_extensions:
+  - abbr
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
