@@ -1,7 +1,9 @@
 :root {
-    --md-accent-fg-color: #52fd3c;
-    --md-primary-fg-color: #10c610;
-    
+    --md-accent-fg-color: #2587ff;
+
+    --md-primary-fg-color--light: #0071ff;
+
+    --md-primary-fg-color: #0071ff;
     --md-default-fg-color: rgba(0, 0, 0, 0.6);
     --md-default-fg-color--light: #252525;
     --md-default-bg-color: #fff;
@@ -29,11 +31,11 @@ background: #252525;
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-background: #10c610;
+background: #0071ff;
 border-radius: 3px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-background: #10c610;
+background: #2386ff;
 }
