@@ -2,42 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://example.com/</loc>
-         <lastmod>2022-05-29</lastmod>
+         <lastmod>2022-05-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/exports/DisableMenus/</loc>
+         <lastmod>2022-05-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/exports/GetCurrentPauseMenu/</loc>
-         <lastmod>2022-05-29</lastmod>
+         <lastmod>2022-05-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/exports/IsInPause/</loc>
-         <lastmod>2022-05-29</lastmod>
+         <lastmod>2022-05-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/exports/IsMenuDisabled/</loc>
+         <lastmod>2022-05-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/exports/OpenBrowserPage/</loc>
-         <lastmod>2022-05-29</lastmod>
+         <lastmod>2022-05-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/exports/SetMapMenu/</loc>
-         <lastmod>2022-05-29</lastmod>
+         <lastmod>2022-05-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/exports/SetPauseMenu/</loc>
-         <lastmod>2022-05-29</lastmod>
+         <lastmod>2022-05-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/exports/SetSettingsMenu/</loc>
-         <lastmod>2022-05-29</lastmod>
+         <lastmod>2022-05-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/exports/TogglePauseMenu/</loc>
-         <lastmod>2022-05-29</lastmod>
+         <lastmod>2022-05-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
